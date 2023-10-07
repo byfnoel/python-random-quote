@@ -1,5 +1,4 @@
-import random
-
+from random import randint
 
 def primary():
     f = open("quotes.txt")
@@ -7,7 +6,7 @@ def primary():
     f.close()
 
     last = 13
-    rnd = random.randit(0, last)
+    rnd = randint(0, last)
     print(quotes[rnd])
 
 
